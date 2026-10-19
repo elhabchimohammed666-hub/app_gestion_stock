@@ -1,0 +1,23 @@
+{
+  "name": "gestion-de-stock-erp-mern",
+  "version": "1.0.0",
+  "description": "Système de Gestion de Stock, Facturation et Caisse POS (MERN Stack inspiré de la démo Odoo Maroc)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "build:client": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "mern",
+    "odoo",
+    "gestion-de-stock",
+    "facturation",
+    "point-de-vente",
+    "pos",
+    "maroc"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
