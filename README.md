@@ -1,6 +1,6 @@
 # 📦 Odoo Service Maroc - Système ERP de Gestion de Stock, Facturation & Caisse POS (MERN Stack)
 
-Ce projet est une réplique moderne, réactive et complète de la solution **ERP Odoo Maroc** présentée dans la vidéo de démonstration (`WhatsApp Video 2026-10-18 at 20.26.40.mp4`).
+
 
 Conçu avec la **stack MERN** (MongoDB, Express, React, Node.js) et **Tailwind CSS**, il respecte fidèlement la charte graphique violette Odoo (`#714B67`), l'ergonomie, la devise marocaine (**MAD / DH**), et la synchronisation automatique en temps réel des stocks.
 
@@ -97,65 +97,6 @@ Vous pouvez soit :
     ```
     *L'interface s'ouvre sur `http://localhost:3000`.*
 
----
 
-## 📁 Structure du Projet
 
-```
-gestion de stock2/
-├── backend/
-│   ├── config/
-│   │   └── db.js               # Connexion Mongoose MongoDB
-│   ├── models/
-│   │   ├── Category.js         # Catégories de produits
-│   │   ├── Contact.js          # Clients et Fournisseurs (avec ICE/IF/RC)
-│   │   ├── Invoice.js          # Factures clients et fournisseurs
-│   │   ├── Payment.js          # Encaissements et décaissements
-│   │   ├── PosOrder.js         # Commandes et tickets de caisse POS
-│   │   ├── PosSession.js       # Sessions de caisse
-│   │   ├── Product.js          # Articles, prix en DH, stocks et seuils
-│   │   ├── StockMovement.js    # Audit log des variations de stock
-│   │   └── StockOperation.js   # Réceptions, livraisons, transferts
-│   ├── routes/
-│   │   ├── contactRoutes.js
-│   │   ├── dashboardRoutes.js
-│   │   ├── inventoryRoutes.js  # Opérations d'inventaire & synchro auto
-│   │   ├── invoiceRoutes.js    # Facturation & paiements
-│   │   ├── paymentRoutes.js
-│   │   ├── posRoutes.js        # Caisse POS, validation & décrémentation stock
-│   │   └── productRoutes.js
-│   ├── seed/
-│   │   └── seedData.js         # Données authentiques marocaines préchargées
-│   ├── .env
-│   ├── package.json
-│   └── server.js
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── InvoiceDetailModal.jsx  # Fiche facture & paiement
-│   │   │   ├── Navbar.jsx              # Barre de navigation style Odoo
-│   │   │   ├── NewContactModal.jsx     # Création client/fournisseur
-│   │   │   ├── NewInvoiceModal.jsx     # Création facture avec lignes dynamiques
-│   │   │   ├── NewOperationModal.jsx   # Création réception/livraison
-│   │   │   ├── NewProductModal.jsx     # Création article
-│   │   │   └── ReceiptModal.jsx        # Ticket de caisse thermique imprimable
-│   │   ├── pages/
-│   │   │   ├── Contacts.jsx            # Répertoire clients & fournisseurs
-│   │   │   ├── Dashboard.jsx           # Tableau de bord analytique
-│   │   │   ├── Inventory.jsx           # Inventaire (Kanban, Articles, Mouvements)
-│   │   │   ├── Invoices.jsx            # Factures clients et fournisseurs
-│   │   │   ├── PosSessions.jsx         # Sessions de vente POS
-│   │   │   └── PosTerminal.jsx         # Caisse tactile POS avec calcul de monnaie
-│   │   ├── api.js                      # Helpers Axios et formattage DH
-│   │   ├── App.jsx                     # Routeur principal
-│   │   └── index.css                   # Styles Tailwind et impression ticket
-│   ├── tailwind.config.js              # Palette Odoo violette (#714B67)
-│   ├── vite.config.js                  # Proxy backend sur port 5000
-│   └── package.json
-│
-├── WhatsApp Video 2026-10-18 at 20.26.40.mp4  # Vidéo de référence
-├── start_servers.bat                          # Script de lancement automatique
-├── seed_data.bat                             # Script d'injection données de test
-└── README.md
-```
+
