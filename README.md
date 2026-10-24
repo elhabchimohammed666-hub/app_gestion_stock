@@ -1,3 +1,6 @@
+## License
+   © 2026 Elhabchi Mohammed. All Rights Reserved.
+
 # 📦 Odoo Service Maroc - Système ERP de Gestion de Stock, Facturation & Caisse POS (MERN Stack)
 
 
