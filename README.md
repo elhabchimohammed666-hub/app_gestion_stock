@@ -4,8 +4,7 @@
 # 📦 Odoo Service Maroc - Système ERP de Gestion de Stock, Facturation & Caisse POS (MERN Stack)
 
 
-
-Conçu avec la **stack MERN** (MongoDB, Express, React, Node.js) et **Tailwind CSS**, il respecte fidèlement la charte graphique violette Odoo (`#714B67`), l'ergonomie, la devise marocaine (**MAD / DH**), et la synchronisation automatique en temps réel des stocks.
+Conçu avec la **stack MERN** (MongoDB, Express, React, Node.js) et **Tailwind CSS**, il respecte fidèlement la charte graphique violette Odoo (`#714B67`), l'ergonomie,la devise marocaine (**MAD / DH**), et la synchronisation automatique en temps réel des stocks.
 
 ---
 
